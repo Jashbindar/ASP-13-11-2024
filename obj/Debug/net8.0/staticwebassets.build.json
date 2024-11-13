@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Sb0BZYtgZMJIp1UvjlJkPu86PhcQhpGhhrhk/cgg+WU=",
+  "Source": "AccountrixServiceProvider",
+  "BasePath": "_content/AccountrixServiceProvider",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
