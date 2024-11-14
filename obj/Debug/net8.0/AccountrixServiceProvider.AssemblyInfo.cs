@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AccountrixServiceProvider")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed186d8b2e3d21b39d75edb995af30ee9d2df68c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d30cd7438f02787cf2a2cc3036e88ea74239735f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AccountrixServiceProvider")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AccountrixServiceProvider")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
