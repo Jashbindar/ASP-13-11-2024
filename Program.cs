@@ -75,6 +75,14 @@ app.MapPost("/transactions", async (UserTransaction a_transcation) =>
     return Results.NoContent();
 });
 
+//to delete transaction
+app.MapPost("/transactions/{data}", async (string data) =>
+{
+    await _databaselogic.deleteTransaction(data);
+    return Results.NoContent();
+});
+
+
 
 app.UseCors("AllowAll");
 // Configure the HTTP request pipeline.

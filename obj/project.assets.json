@@ -456,6 +456,35 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "DatabaseLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FirebaseAdmin": "3.0.1",
+          "Google.Cloud.Firestore": "3.9.0",
+          "Homework2Library": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DatabaseLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DatabaseLogic.dll": {}
+        }
+      },
+      "Homework2Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "FirebaseAdmin": "3.0.1",
+          "Google.Cloud.Firestore": "3.9.0"
+        },
+        "compile": {
+          "bin/placeholder/Homework2Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Homework2Library.dll": {}
+        }
       }
     }
   },
@@ -1165,28 +1194,45 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "DatabaseLogic/1.0.0": {
+      "type": "project",
+      "path": "../DatabaseLibrary-13-11-2024/DatabaseLogic/DatabaseLogic.csproj",
+      "msbuildProject": "../DatabaseLibrary-13-11-2024/DatabaseLogic/DatabaseLogic.csproj"
+    },
+    "Homework2Library/1.0.0": {
+      "type": "project",
+      "path": "../TransactionLibrary-13-11-2024/Homework2Library.csproj",
+      "msbuildProject": "../TransactionLibrary-13-11-2024/Homework2Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "DatabaseLogic >= 1.0.0",
       "FirebaseAdmin >= 3.1.0",
-      "Google.Cloud.Firestore >= 3.9.0"
+      "Google.Cloud.Firestore >= 3.9.0",
+      "Homework2Library >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\jash\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Programming\\OOP\\AccountrixServiceProvider\\AccountrixServiceProvider.csproj",
+      "projectUniqueName": "C:\\Users\\jash\\Desktop\\New folder\\ASP-13-11-2024\\AccountrixServiceProvider.csproj",
       "projectName": "AccountrixServiceProvider",
-      "projectPath": "C:\\Users\\User\\Desktop\\Programming\\OOP\\AccountrixServiceProvider\\AccountrixServiceProvider.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Programming\\OOP\\AccountrixServiceProvider\\obj\\",
+      "projectPath": "C:\\Users\\jash\\Desktop\\New folder\\ASP-13-11-2024\\AccountrixServiceProvider.csproj",
+      "packagesPath": "C:\\Users\\jash\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jash\\Desktop\\New folder\\ASP-13-11-2024\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1200,7 +1246,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\jash\\Desktop\\New folder\\DatabaseLibrary-13-11-2024\\DatabaseLogic\\DatabaseLogic.csproj": {
+              "projectPath": "C:\\Users\\jash\\Desktop\\New folder\\DatabaseLibrary-13-11-2024\\DatabaseLogic\\DatabaseLogic.csproj"
+            },
+            "C:\\Users\\jash\\Desktop\\New folder\\TransactionLibrary-13-11-2024\\Homework2Library.csproj": {
+              "projectPath": "C:\\Users\\jash\\Desktop\\New folder\\TransactionLibrary-13-11-2024\\Homework2Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1246,7 +1299,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

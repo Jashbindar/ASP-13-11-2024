@@ -12,6 +12,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DatabaseLibrary-13-11-2024\DatabaseLogic\DatabaseLogic.csproj" />
+    <ProjectReference Include="..\TransactionLibrary-13-11-2024\Homework2Library.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="DatabaseLogic">
       <HintPath>..\Homework3Library\DatabaseLogic\bin\Debug\net8.0\DatabaseLogic.dll</HintPath>
     </Reference>

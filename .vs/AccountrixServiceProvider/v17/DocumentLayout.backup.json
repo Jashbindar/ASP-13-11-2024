@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jash\\Desktop\\New folder\\ASP-13-11-2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FDE701F-188B-4842-B51E-6D0F895C1928}|AccountrixServiceProvider.csproj|c:\\users\\jash\\desktop\\new folder\\asp-13-11-2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FDE701F-188B-4842-B51E-6D0F895C1928}|AccountrixServiceProvider.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27E050C-8B6B-4324-B936-7520B66187DA}|..\\DatabaseLibrary-13-11-2024\\DatabaseLogic\\DatabaseLogic.csproj|c:\\users\\jash\\desktop\\new folder\\databaselibrary-13-11-2024\\databaselogic\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C277BCF-5FBA-460C-985E-F4DDA9D79807}|..\\TransactionLibrary-13-11-2024\\Homework2Library.csproj|c:\\users\\jash\\desktop\\new folder\\transactionlibrary-13-11-2024\\usertransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C277BCF-5FBA-460C-985E-F4DDA9D79807}|..\\TransactionLibrary-13-11-2024\\Homework2Library.csproj|c:\\users\\jash\\desktop\\new folder\\transactionlibrary-13-11-2024\\foo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 299,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\jash\\Desktop\\New folder\\DatabaseLibrary-13-11-2024\\DatabaseLogic\\Database.cs",
+              "RelativeDocumentMoniker": "..\\DatabaseLibrary-13-11-2024\\DatabaseLogic\\Database.cs",
+              "ToolTip": "C:\\Users\\jash\\Desktop\\New folder\\DatabaseLibrary-13-11-2024\\DatabaseLogic\\Database.cs",
+              "RelativeToolTip": "..\\DatabaseLibrary-13-11-2024\\DatabaseLogic\\Database.cs",
+              "ViewState": "AgIAANcAAAAAAAAAAAAmwDIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T06:47:42.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\jash\\Desktop\\New folder\\TransactionLibrary-13-11-2024\\UserTransaction.cs",
+              "RelativeDocumentMoniker": "..\\TransactionLibrary-13-11-2024\\UserTransaction.cs",
+              "ToolTip": "C:\\Users\\jash\\Desktop\\New folder\\TransactionLibrary-13-11-2024\\UserTransaction.cs",
+              "RelativeToolTip": "..\\TransactionLibrary-13-11-2024\\UserTransaction.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T06:58:02.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Foo.cs",
+              "DocumentMoniker": "C:\\Users\\jash\\Desktop\\New folder\\TransactionLibrary-13-11-2024\\Foo.cs",
+              "RelativeDocumentMoniker": "..\\TransactionLibrary-13-11-2024\\Foo.cs",
+              "ToolTip": "C:\\Users\\jash\\Desktop\\New folder\\TransactionLibrary-13-11-2024\\Foo.cs",
+              "RelativeToolTip": "..\\TransactionLibrary-13-11-2024\\Foo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T06:42:27.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jash\\Desktop\\New folder\\ASP-13-11-2024\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jash\\Desktop\\New folder\\ASP-13-11-2024\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAE4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:54:03.135Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

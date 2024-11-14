@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountrixServiceProvider", "AccountrixServiceProvider.csproj", "{6FDE701F-188B-4842-B51E-6D0F895C1928}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountrixServiceProvider", "AccountrixServiceProvider.csproj", "{6FDE701F-188B-4842-B51E-6D0F895C1928}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework2Library", "..\TransactionLibrary-13-11-2024\Homework2Library.csproj", "{9C277BCF-5FBA-460C-985E-F4DDA9D79807}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseLogic", "..\DatabaseLibrary-13-11-2024\DatabaseLogic\DatabaseLogic.csproj", "{C27E050C-8B6B-4324-B936-7520B66187DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{6FDE701F-188B-4842-B51E-6D0F895C1928}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FDE701F-188B-4842-B51E-6D0F895C1928}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FDE701F-188B-4842-B51E-6D0F895C1928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C277BCF-5FBA-460C-985E-F4DDA9D79807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C277BCF-5FBA-460C-985E-F4DDA9D79807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C277BCF-5FBA-460C-985E-F4DDA9D79807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C277BCF-5FBA-460C-985E-F4DDA9D79807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C27E050C-8B6B-4324-B936-7520B66187DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27E050C-8B6B-4324-B936-7520B66187DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27E050C-8B6B-4324-B936-7520B66187DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27E050C-8B6B-4324-B936-7520B66187DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
