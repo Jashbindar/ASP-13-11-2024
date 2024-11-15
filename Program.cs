@@ -68,6 +68,14 @@ app.MapGet("/transactions", async c =>
   
 });
 
+// retrieve assets data
+app.MapGet("/assets", async c =>
+{
+    await _databaselogic.retrieveItem();
+    c.Response.WriteAsJsonAsync(_databaselogic.tmp_items.items);
+
+});
+
 //to save user transactions
 app.MapPost("/transactions", async (UserTransaction a_transcation) =>
 {
@@ -75,10 +83,24 @@ app.MapPost("/transactions", async (UserTransaction a_transcation) =>
     return Results.NoContent();
 });
 
+//to save user assets
+app.MapPost("/assets", async (Item a_item) =>
+{
+    await _databaselogic.saveAsset(a_item);
+    return Results.NoContent();
+});
+
 //to delete transaction
 app.MapPost("/transactions/{data}", async (string data) =>
 {
     await _databaselogic.deleteTransaction(data);
+    return Results.NoContent();
+});
+
+//to delete assets
+app.MapPost("/assets/{data}", async (string data) =>
+{
+    await _databaselogic.deleteAsset(data);
     return Results.NoContent();
 });
 
